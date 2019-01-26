@@ -10,5 +10,6 @@ def oxford_comma(array)
       new_array << array[count]", "
     end
     new_array << "and "array[count]
+    puts new_array
   end
 end
