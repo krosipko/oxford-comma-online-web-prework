@@ -3,7 +3,7 @@ def oxford_comma(array)
     array[0]
   elsif array.size == 2 
     array.join(' and ')
-  elsif array.size == 3
+  elsif array.size >= 3
     new_array = []
     count = 0
     while new_array.size < array.size - 1
