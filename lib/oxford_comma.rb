@@ -7,8 +7,11 @@ def oxford_comma(array)
     new_array = []
     count = 0
     while new_array.size < array.size - 1
-      new_array << array[count]", "
+      shov = array[count]
+      new_array << "#{shov}, "
+      count += 1
     end
+    shov = array[count]
     new_array << "and "array[count]
     puts new_array
   end
