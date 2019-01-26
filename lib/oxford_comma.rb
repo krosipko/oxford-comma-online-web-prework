@@ -13,6 +13,6 @@ def oxford_comma(array)
     end
     shov = array[count]
     new_array << "and #{shov}"
-    new_array
+    new_array.join
   end
 end
