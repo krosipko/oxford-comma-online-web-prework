@@ -12,7 +12,7 @@ def oxford_comma(array)
       count += 1
     end
     shov = array[count]
-    new_array << "and "array[count]
+    new_array << "and #{shov}"
     puts new_array
   end
 end
